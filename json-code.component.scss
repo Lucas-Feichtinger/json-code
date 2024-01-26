@@ -1,0 +1,25 @@
+:host {
+   ::ng-deep.json-container {
+      overflow-x: auto;
+
+      p {
+         margin: 0.2rem;
+      }
+
+      .json-key {
+         color: #dd5c67;
+      }
+
+      .json-value-string {
+         color: #98c379;
+      }
+
+      .json-value-number {
+         color: #d17d45;
+      }
+
+      .json-value-boolean {
+         color: #248faf;
+      }
+   }
+}
